@@ -192,11 +192,11 @@ legend {
   animation: shockLE 2s 0.5s linear infinite;
 }
 
-/*.shocked .mouth {
+.shocked .mouth {
   transform: scale(1.2, 1.2);
 }
 
-.laughing .right-eye, .laughing .left-eye {
+/*.laughing .right-eye, .laughing .left-eye {
   animation: laughE 0.4s 0.5s linear infinite;
   border-radius: 50% 50% 0 0;
   transform: scale(1.2, 1.1);
