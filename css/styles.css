@@ -9,6 +9,12 @@
   font-size: calc(18px + (24 - 18) * (100vw - 320px)/(1920 - 320));
 }
 
+body, input {
+  background-color: #e0f0ff;
+  font: 1em "Oxygen", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -30,12 +36,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-body, input {
-  background-color: #e0f0ff;
-  font: 1em "Oxygen", Helvetica, sans-serif;
-  line-height: 1.5;
 }
 
 form, fieldset, legend {
