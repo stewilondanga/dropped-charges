@@ -378,7 +378,7 @@ legend {
   margin: 20px auto;
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
@@ -390,7 +390,7 @@ legend {
   border-bottom: 3px solid #f3f3f3;
 }
 
-.cal {
+/*.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
