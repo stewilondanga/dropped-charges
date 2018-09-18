@@ -165,12 +165,12 @@ legend {
   transform: scale(2, 0.3);
 }
 
-/*.angry .right-eye {
+.angry .right-eye {
   animation: angryRE 2s 0.5s linear infinite;
   transform: skewY(20deg) scale(0.8, 1);
 }
 
-.angry .left-eye {
+/*.angry .left-eye {
   animation: angryLE 2s 0.5s linear infinite;
   transform: skewY(-20deg) scale(0.8, 1);
 }
