@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+:root {
+  font-size: calc(18px + (24 - 18) * (100vw - 320px)/(1920 - 320));
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -26,11 +30,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-
-:root {
-  font-size: calc(18px + (24  - 18) * (100vw - 320px)/(1920 - 320));
 }
 
 body, input {
