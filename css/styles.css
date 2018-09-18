@@ -362,17 +362,17 @@ legend {
 
 /* Large desktop */
 
-/*@media screen and (min-width: 761px) {
+@media screen and (min-width: 761px) {
   form {
     max-width: 36.75em;
   }
-
   .outlet {
     display: inline-flex;
     margin: 0 1.5em 0 0;
     vertical-align: top;
   }
 }
+
 /*
 .containers {
   width: 520px;
