@@ -160,12 +160,12 @@ legend {
   transform: skewY(25deg) scale(0.8, 1);
 }
 
-/*.sad .mouth {
+.sad .mouth {
   animation: sadM 4s 0.5s linear infinite;
   transform: scale(2, 0.3);
 }
 
-.angry .right-eye {
+/*.angry .right-eye {
   animation: angryRE 2s 0.5s linear infinite;
   transform: skewY(20deg) scale(0.8, 1);
 }
