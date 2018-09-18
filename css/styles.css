@@ -96,12 +96,12 @@ legend {
   transition: all 0.3s linear;
 }
 
-/*.right-eye, .left-eye {
+.right-eye, .left-eye {
   width: 1.75em;
   height: 2em;
 }
 
-.right-eye {
+/*.right-eye {
   border-top: 0.375em solid rgba(255, 255, 255, 0.75);
   border-right: 0.625em solid white;
   border-bottom: 0.375em solid #edf1f4;
