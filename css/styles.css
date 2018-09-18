@@ -303,7 +303,7 @@ legend {
   }
 }
 
-/*@keyframes shockLE {
+@keyframes shockLE {
   from, 40%, 50%, to {
     transform: scale(1.3, 1.3);
   }
@@ -311,7 +311,8 @@ legend {
     transform: scale(1.3, 1.2);
   }
 }
-@keyframes laughE {
+
+/*@keyframes laughE {
   from, to {
     transform: scale(1.2, 1.1);
   }
