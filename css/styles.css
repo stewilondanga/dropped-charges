@@ -312,7 +312,7 @@ legend {
   }
 }
 
-/*@keyframes laughE {
+@keyframes laughE {
   from, to {
     transform: scale(1.2, 1.1);
   }
@@ -320,7 +320,8 @@ legend {
     transform: scale(1.2, 1);
   }
 }
-@keyframes laughM {
+
+/*@keyframes laughM {
   from, to {
     transform: scale(1.75, 1.1);
   }
