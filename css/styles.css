@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,6 +21,351 @@ body {
   height: 1.5em;
 }
 
+*, *:before, *:after {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: calc(18px + (24  - 18) * (100vw - 320px)/(1920 - 320));
+}
+
+body, input {
+  background-color: #e0f0ff;
+  font: 1em "Oxygen", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+form, fieldset, legend {
+  background-color: inherit;
+}
+
+form {
+  margin: auto;
+  max-width: 24em;
+  padding: 1.5em 0.75em 0;
+}
+
+label {
+  display: block;
+}
+
+input {
+  vertical-align: 0.125em;
+}
+
+fieldset {
+  box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.3);
+  border-radius: 0.375em;
+  display: inline-block;
+  margin-bottom: 1.5em;
+  padding: 0.75em;
+  width: 100%;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 0.25em;
+}
+
+/* Outlet parts */
+/*.outlet, .face {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.outlet {
+  background-color: #edf1f4;
+  border-radius: 0.375em;
+  box-shadow: 0.0625em 0.0625em 0 rgba(0, 0, 0, 0.1) inset, -0.0625em -0.0625em 0 rgba(0, 0, 0, 0.2) inset, -0.5em -0.5em 0.5em rgba(0, 0, 0, 0.3) inset, 0.25em 0.25em 0.125em rgba(0, 0, 0, 0.1) inset, -0.1875em 0 0.1875em 0.6875em rgba(255, 255, 255, 0.7) inset;
+  flex-direction: column;
+  margin: auto auto 1.5em;
+  width: 11em;
+  height: 18em;
+}
+
+.face {
+  border-radius: 1.25em / 50%;
+  box-shadow: 0 0 0 0.125em #5c5858 inset, -0.125em -0.125em 0 0.125em rgba(0, 0, 0, 0.1) inset, 0.125em 0.125em 0 0.125em white inset;
+  margin: 0.375em 0;
+  width: 5.5em;
+  height: 4.75em;
+}
+
+.right-eye, .left-eye, .mouth {
+  background: black;
+  box-shadow: 0.0625em 0.0625em 0.0625em rgba(255, 255, 255, 0.6);
+  transition: all 0.3s linear;
+}
+
+.right-eye, .left-eye {
+  width: 1.75em;
+  height: 2em;
+}
+
+.right-eye {
+  border-top: 0.375em solid rgba(255, 255, 255, 0.75);
+  border-right: 0.625em solid white;
+  border-bottom: 0.375em solid #edf1f4;
+  border-left: 0.75em solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.375em 0 0 0.375em / 50% 0 0 50%;
+  margin: 0.375em 0.1875em 0.1875em 0.375em;
+  transform-origin: 100% 0%;
+}
+
+.left-eye {
+  border-top: 0.5em solid rgba(255, 255, 255, 0.75);
+  border-right: 0.75em solid white;
+  border-bottom: 0.5em solid #edf1f4;
+  border-left: 0.625em solid rgba(255, 255, 255, 0.9);
+  border-radius: 0 0.375em 0.375em 0 / 0 50% 50% 0;
+  margin: 0.375em 0.375em 0.1875em 0.1875em;
+  transform-origin: 0 0;
+}
+
+.mouth {
+  border-top: 0.25em solid rgba(255, 255, 255, 0.8);
+  border-right: 0.25em solid #edf1f4;
+  border-bottom: 0.25em solid #edf1f4;
+  border-left: 0.25em solid rgba(255, 255, 255, 0.8);
+  border-radius: 50% 50% 0 0;
+  margin-top: 0.1875em;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.screw {
+  background-image: radial-gradient(0.25em 0.25em at 95% 50%, white, rgba(255, 255, 255, 0)), linear-gradient(90deg, rgba(157, 162, 166, 0) 40%, #9da2a6 41%, #9da2a6 59%, rgba(157, 162, 166, 0) 60%), radial-gradient(at 50% 0, white, rgba(255, 255, 255, 0)), radial-gradient(at 100% 75%, #9da2a6, rgba(157, 162, 166, 0));
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.0625em #9da2a6 inset;
+  width: 1.125em;
+  height: 1.125em;
+}
+
+/* Emotions */
+/*.happy div {
+  animation: happy 2s 0.5s linear infinite;
+}
+
+.happy .mouth {
+  border-radius: 0 0 50% 50%;
+}
+
+.sad .right-eye {
+  animation: sadRE 4s 0.5s linear infinite;
+  transform: skewY(-25deg) scale(0.8, 1);
+}
+
+.sad .left-eye {
+  animation: sadLE 4s 0.5s linear infinite;
+  transform: skewY(25deg) scale(0.8, 1);
+}
+
+.sad .mouth {
+  animation: sadM 4s 0.5s linear infinite;
+  transform: scale(2, 0.3);
+}
+
+.angry .right-eye {
+  animation: angryRE 2s 0.5s linear infinite;
+  transform: skewY(20deg) scale(0.8, 1);
+}
+
+.angry .left-eye {
+  animation: angryLE 2s 0.5s linear infinite;
+  transform: skewY(-20deg) scale(0.8, 1);
+}
+
+.angry .mouth {
+  animation: angryM 2s 0.5s linear infinite;
+  transform: scale(1.5, 1);
+}
+
+.shocked .right-eye, .shocked .left-eye, .shocked .mouth {
+  border-radius: 50%;
+}
+
+.shocked .right-eye, .shocked .left-eye {
+  transform: scale(1.3, 1.3);
+}
+
+.shocked .left-eye {
+  animation: shockLE 2s 0.5s linear infinite;
+}
+
+.shocked .mouth {
+  transform: scale(1.2, 1.2);
+}
+
+.laughing .right-eye, .laughing .left-eye {
+  animation: laughE 0.4s 0.5s linear infinite;
+  border-radius: 50% 50% 0 0;
+  transform: scale(1.2, 1.1);
+}
+
+.laughing .mouth {
+  animation: laughM 0.4s 0.5s linear infinite;
+  border-radius: 0 0 50% 50%;
+  transform: scale(1.75, 1.1);
+  transform-origin: 50% 100%;
+}
+
+.sleeping .right-eye, .sleeping .left-eye {
+  height: 0;
+  transform: scale(1.2, 0.5);
+}
+
+.sleeping .mouth {
+  animation: sleep 3s 0.5s linear infinite;
+  border-radius: 0;
+  transform: scale(1.5, 0.1);
+}
+
+/* emotion animations */
+/*@keyframes happy {
+  from, 10%, to {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(-0.25em);
+  }
+}
+@keyframes sadRE {
+  from, 10%, 55%, 65%, to {
+    transform: translateY(0) skewY(-25deg) scale(0.8, 1);
+  }
+  5% {
+    transform: translateY(0.125em) skewY(-25deg) scale(0.8, 1);
+  }
+  60% {
+    transform: translateY(1em) skewY(-25deg) scale(0.8, 0);
+  }
+}
+@keyframes sadLE {
+  from, 10%, 55%, 65%, to {
+    transform: translateY(0) skewY(25deg) scale(0.8, 1);
+  }
+  5% {
+    transform: translateY(0.125em) skewY(25deg) scale(0.8, 1);
+  }
+  60% {
+    transform: translateY(1em) skewY(25deg) scale(0.8, 0);
+  }
+}
+@keyframes sadM {
+  from, 10%, to {
+    transform: translateY(0) scale(2, 0.3);
+  }
+  5% {
+    transform: translateY(0.125em) scale(2, 0.3);
+  }
+}
+@keyframes angryRE {
+  from, 5%, 45%, to {
+    transform: translateX(0) skewY(20deg) scale(0.8, 1);
+  }
+  10%, 30% {
+    transform: translateX(-0.125em) skewY(20deg) scale(0.9, 1);
+  }
+  20%, 40% {
+    transform: translateX(0.125em) skewY(20deg) scale(0.9, 1);
+  }
+}
+@keyframes angryLE {
+  from, 5%, 45%, to {
+    transform: translateX(0) skewY(-20deg) scale(0.8, 1);
+  }
+  10%, 30% {
+    transform: translateX(-0.125em) skewY(-20deg) scale(0.9, 1);
+  }
+  20%, 40% {
+    transform: translateX(0.125em) skewY(-20deg) scale(0.9, 1);
+  }
+}
+@keyframes angryM {
+  from, 45%, to {
+    transform: translateX(0) scale(1.5, 1);
+  }
+  5% {
+    transform: translateX(0) scale(2.2, 1.05);
+  }
+  10%, 30% {
+    transform: translateX(-0.125em) scale(2.2, 1.05);
+  }
+  20%, 40% {
+    transform: translateX(0.125em) scale(2.2, 1.05);
+  }
+}
+@keyframes shockLE {
+  from, 40%, 50%, to {
+    transform: scale(1.3, 1.3);
+  }
+  45% {
+    transform: scale(1.3, 1.2);
+  }
+}
+@keyframes laughE {
+  from, to {
+    transform: scale(1.2, 1.1);
+  }
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
+@keyframes laughM {
+  from, to {
+    transform: scale(1.75, 1.1);
+  }
+  50% {
+    transform: scale(1.75, 1.2);
+  }
+}
+@keyframes sleep {
+  from, 70%, to {
+    border-radius: 50% 50% 0 0;
+    transform: scale(1.5, 0.1);
+  }
+  5%, 15%, 25% {
+    border-radius: 50% 50% 0 0;
+    transform: scale(1.5, 0.6);
+  }
+  10%, 20%, 30% {
+    border-radius: 50% 50% 0 0;
+    transform: scale(1.5, 0.5);
+  }
+  50%, 60% {
+    border-radius: 50%;
+    transform: scale(1, 1);
+  }
+}
+/* Mobile screen */
+/*@media screen and (min-width: 481px) {
+  fieldset {
+    max-width: 10.5em;
+  }
+
+  fieldset:nth-of-type(odd) {
+    margin-right: 1.49em;
+  }
+}
+/* Large desktop */
+/*@media screen and (min-width: 761px) {
+  form {
+    max-width: 36.75em;
+  }
+
+  .outlet {
+    display: inline-flex;
+    margin: 0 1.5em 0 0;
+    vertical-align: top;
+  }
+}
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
