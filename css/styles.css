@@ -72,7 +72,7 @@ legend {
   align-items: center;
 }
 
-/*.outlet {
+.outlet {
   background-color: #edf1f4;
   border-radius: 0.375em;
   box-shadow: 0.0625em 0.0625em 0 rgba(0, 0, 0, 0.1) inset, -0.0625em -0.0625em 0 rgba(0, 0, 0, 0.2) inset, -0.5em -0.5em 0.5em rgba(0, 0, 0, 0.3) inset, 0.25em 0.25em 0.125em rgba(0, 0, 0, 0.1) inset, -0.1875em 0 0.1875em 0.6875em rgba(255, 255, 255, 0.7) inset;
@@ -82,7 +82,7 @@ legend {
   height: 18em;
 }
 
-.face {
+/*.face {
   border-radius: 1.25em / 50%;
   box-shadow: 0 0 0 0.125em #5c5858 inset, -0.125em -0.125em 0 0.125em rgba(0, 0, 0, 0.1) inset, 0.125em 0.125em 0 0.125em white inset;
   margin: 0.375em 0;
