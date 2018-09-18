@@ -243,7 +243,7 @@ legend {
   }
 }
 
-/*@keyframes sadLE {
+@keyframes sadLE {
   from, 10%, 55%, 65%, to {
     transform: translateY(0) skewY(25deg) scale(0.8, 1);
   }
@@ -254,7 +254,8 @@ legend {
     transform: translateY(1em) skewY(25deg) scale(0.8, 0);
   }
 }
-@keyframes sadM {
+
+/*@keyframes sadM {
   from, 10%, to {
     transform: translateY(0) scale(2, 0.3);
   }
