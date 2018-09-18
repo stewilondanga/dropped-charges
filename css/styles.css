@@ -288,7 +288,7 @@ legend {
   }
 }
 
-/*@keyframes angryM {
+@keyframes angryM {
   from, 45%, to {
     transform: translateX(0) scale(1.5, 1);
   }
@@ -302,7 +302,8 @@ legend {
     transform: translateX(0.125em) scale(2.2, 1.05);
   }
 }
-@keyframes shockLE {
+
+/*@keyframes shockLE {
   from, 40%, 50%, to {
     transform: scale(1.3, 1.3);
   }
