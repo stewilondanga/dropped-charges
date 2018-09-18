@@ -142,7 +142,7 @@ legend {
 
 /* Emotions */
 
-/*.happy div {
+.happy div {
   animation: happy 2s 0.5s linear infinite;
 }
 
@@ -150,7 +150,7 @@ legend {
   border-radius: 0 0 50% 50%;
 }
 
-.sad .right-eye {
+/*.sad .right-eye {
   animation: sadRE 4s 0.5s linear infinite;
   transform: skewY(-25deg) scale(0.8, 1);
 }
