@@ -255,7 +255,7 @@ legend {
   }
 }
 
-/*@keyframes sadM {
+@keyframes sadM {
   from, 10%, to {
     transform: translateY(0) scale(2, 0.3);
   }
@@ -263,7 +263,8 @@ legend {
     transform: translateY(0.125em) scale(2, 0.3);
   }
 }
-@keyframes angryRE {
+
+/*@keyframes angryRE {
   from, 5%, 45%, to {
     transform: translateX(0) skewY(20deg) scale(0.8, 1);
   }
