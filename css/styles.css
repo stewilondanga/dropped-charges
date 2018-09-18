@@ -330,7 +330,7 @@ legend {
   }
 }
 
-/*@keyframes sleep {
+@keyframes sleep {
   from, 70%, to {
     border-radius: 50% 50% 0 0;
     transform: scale(1.5, 0.1);
@@ -348,6 +348,7 @@ legend {
     transform: scale(1, 1);
   }
 }
+
 /* Mobile screen */
 
 /*@media screen and (min-width: 481px) {
