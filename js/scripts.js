@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-document.addEventListener("DOMContentLoaded", function(){
+/*document.addEventListener("DOMContentLoaded", function(){
 	let faces = document.querySelectorAll(".face"),
 		radios = document.querySelectorAll("input"),
 		faceCN = "face",
