@@ -150,12 +150,12 @@ legend {
   border-radius: 0 0 50% 50%;
 }
 
-/*.sad .right-eye {
+.sad .right-eye {
   animation: sadRE 4s 0.5s linear infinite;
   transform: skewY(-25deg) scale(0.8, 1);
 }
 
-.sad .left-eye {
+/*.sad .left-eye {
   animation: sadLE 4s 0.5s linear infinite;
   transform: skewY(25deg) scale(0.8, 1);
 }
