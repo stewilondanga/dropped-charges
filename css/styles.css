@@ -90,13 +90,13 @@ legend {
   height: 4.75em;
 }
 
-/*.right-eye, .left-eye, .mouth {
+.right-eye, .left-eye, .mouth {
   background: black;
   box-shadow: 0.0625em 0.0625em 0.0625em rgba(255, 255, 255, 0.6);
   transition: all 0.3s linear;
 }
 
-.right-eye, .left-eye {
+/*.right-eye, .left-eye {
   width: 1.75em;
   height: 2em;
 }
