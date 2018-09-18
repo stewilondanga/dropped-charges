@@ -222,7 +222,7 @@ legend {
 
 /* emotion animations */
 
-/*@keyframes happy {
+@keyframes happy {
   from, 10%, to {
     transform: translateY(0);
   }
@@ -230,7 +230,8 @@ legend {
     transform: translateY(-0.25em);
   }
 }
-@keyframes sadRE {
+
+/*@keyframes sadRE {
   from, 10%, 55%, 65%, to {
     transform: translateY(0) skewY(-25deg) scale(0.8, 1);
   }
