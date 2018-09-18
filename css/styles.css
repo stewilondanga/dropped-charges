@@ -264,7 +264,7 @@ legend {
   }
 }
 
-/*@keyframes angryRE {
+@keyframes angryRE {
   from, 5%, 45%, to {
     transform: translateX(0) skewY(20deg) scale(0.8, 1);
   }
@@ -275,7 +275,8 @@ legend {
     transform: translateX(0.125em) skewY(20deg) scale(0.9, 1);
   }
 }
-@keyframes angryLE {
+
+/*@keyframes angryLE {
   from, 5%, 45%, to {
     transform: translateX(0) skewY(-20deg) scale(0.8, 1);
   }
