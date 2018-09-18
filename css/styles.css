@@ -1,3 +1,10 @@
+*, *:before, *:after {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,12 +28,6 @@
   height: 1.5em;
 }
 
-*, *:before, *:after {
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 :root {
   font-size: calc(18px + (24  - 18) * (100vw - 320px)/(1920 - 320));
@@ -71,6 +72,7 @@ legend {
 }
 
 /* Outlet parts */
+
 /*.outlet, .face {
   display: flex;
   justify-content: center;
@@ -148,6 +150,7 @@ legend {
 }
 
 /* Emotions */
+
 /*.happy div {
   animation: happy 2s 0.5s linear infinite;
 }
@@ -227,6 +230,7 @@ legend {
 }
 
 /* emotion animations */
+
 /*@keyframes happy {
   from, 10%, to {
     transform: translateY(0);
@@ -344,6 +348,7 @@ legend {
   }
 }
 /* Mobile screen */
+
 /*@media screen and (min-width: 481px) {
   fieldset {
     max-width: 10.5em;
@@ -354,6 +359,7 @@ legend {
   }
 }
 /* Large desktop */
+
 /*@media screen and (min-width: 761px) {
   form {
     max-width: 36.75em;
