@@ -170,12 +170,12 @@ legend {
   transform: skewY(20deg) scale(0.8, 1);
 }
 
-/*.angry .left-eye {
+.angry .left-eye {
   animation: angryLE 2s 0.5s linear infinite;
   transform: skewY(-20deg) scale(0.8, 1);
 }
 
-.angry .mouth {
+/*.angry .mouth {
   animation: angryM 2s 0.5s linear infinite;
   transform: scale(1.5, 1);
 }
