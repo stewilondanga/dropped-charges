@@ -34,13 +34,13 @@ form, fieldset, legend {
   background-color: inherit;
 }
 
-/*form {
+form {
   margin: auto;
   max-width: 24em;
   padding: 1.5em 0.75em 0;
 }
 
-label {
+/*label {
   display: block;
 }
 
