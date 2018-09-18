@@ -353,7 +353,7 @@ legend {
 
 @media screen and (min-width: 481px) {
   fieldset {
-    max-width: 10.5em;
+    max-width: 7.5em;
   }
   fieldset:nth-of-type(odd) {
     margin-right: 1.49em;
