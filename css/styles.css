@@ -48,7 +48,7 @@ input {
   vertical-align: 0.125em;
 }
 
-/*fieldset {
+fieldset {
   box-shadow: 0 0 0 0.1em rgba(0, 0, 0, 0.3);
   border-radius: 0.375em;
   display: inline-block;
@@ -57,7 +57,7 @@ input {
   width: 100%;
 }
 
-legend {
+/*legend {
   font-weight: bold;
   padding: 0 0.25em;
 }
