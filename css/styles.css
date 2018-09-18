@@ -132,7 +132,7 @@ legend {
   height: 1.25em;
 }
 
-/*.screw {
+.screw {
   background-image: radial-gradient(0.25em 0.25em at 95% 50%, white, rgba(255, 255, 255, 0)), linear-gradient(90deg, rgba(157, 162, 166, 0) 40%, #9da2a6 41%, #9da2a6 59%, rgba(157, 162, 166, 0) 60%), radial-gradient(at 50% 0, white, rgba(255, 255, 255, 0)), radial-gradient(at 100% 75%, #9da2a6, rgba(157, 162, 166, 0));
   border-radius: 50%;
   box-shadow: 0 0 0 0.0625em #9da2a6 inset;
