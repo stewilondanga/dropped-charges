@@ -101,7 +101,7 @@ legend {
   height: 2em;
 }
 
-/*.right-eye {
+.right-eye {
   border-top: 0.375em solid rgba(255, 255, 255, 0.75);
   border-right: 0.625em solid white;
   border-bottom: 0.375em solid #edf1f4;
@@ -111,7 +111,7 @@ legend {
   transform-origin: 100% 0%;
 }
 
-.left-eye {
+/*.left-eye {
   border-top: 0.5em solid rgba(255, 255, 255, 0.75);
   border-right: 0.75em solid white;
   border-bottom: 0.5em solid #edf1f4;
