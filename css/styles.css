@@ -175,12 +175,12 @@ legend {
   transform: skewY(-20deg) scale(0.8, 1);
 }
 
-/*.angry .mouth {
+.angry .mouth {
   animation: angryM 2s 0.5s linear infinite;
   transform: scale(1.5, 1);
 }
 
-.shocked .right-eye, .shocked .left-eye, .shocked .mouth {
+/*.shocked .right-eye, .shocked .left-eye, .shocked .mouth {
   border-radius: 50%;
 }
 
