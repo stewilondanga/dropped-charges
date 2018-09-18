@@ -155,12 +155,12 @@ legend {
   transform: skewY(-25deg) scale(0.8, 1);
 }
 
-/*.sad .left-eye {
+.sad .left-eye {
   animation: sadLE 4s 0.5s linear infinite;
   transform: skewY(25deg) scale(0.8, 1);
 }
 
-.sad .mouth {
+/*.sad .mouth {
   animation: sadM 4s 0.5s linear infinite;
   transform: scale(2, 0.3);
 }
